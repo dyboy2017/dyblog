@@ -45,6 +45,8 @@
 
 `DYBLOG V1.0.zip`：https://www.lanzous.com/i400ijg
 
+`官方最新版本`：http://www.emlog.net/template/879
+
 ***
 
 ### 0x06 注意事项
