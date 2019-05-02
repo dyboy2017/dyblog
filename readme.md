@@ -43,7 +43,7 @@
 
 ### 0x05 下载地址
 
-抱歉暂无下载地址
+`DYBLOG V1.0.zip`：https://www.lanzous.com/i400ijg
 
 ***
 
