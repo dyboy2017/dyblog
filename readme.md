@@ -1,6 +1,6 @@
 ### 0x00 DYBLOG 主题
 
-`DYBLOG` 是一款扁平化、卡片风格的博客主题，作者：`DYBOY`，同时作者希望使用者更加专注与内从创作和分享。
+`DYBLOG` 是一款扁平化、卡片风格的博客主题，作者：`DYBOY`，同时作者希望使用者更加专注与内容创作和分享。
 
 ![DYBLOG主题](https://upload-images.jianshu.io/upload_images/6661013-170d7ef52c28dbc1.png)
 
@@ -27,7 +27,12 @@
 
 ### 0x03 视频教程
 
-视频教程正在录制中，请耐心等待...
+百度网盘直链下载：https://pan.baiduwp.com/s/11tJTQ1bIdoW5-zyuU2Wd3A  (密码：`5bg4`)
+
+百度网盘在线观看：https://pan.baidu.com/s/11tJTQ1bIdoW5-zyuU2Wd3A   (密码：`5bg4`)
+
+哔哩哔哩(可看1080P)：https://www.bilibili.com/video/av51221785/
+
 
 ***
 
@@ -43,7 +48,13 @@
 
 ### 0x05 下载地址
 
-抱歉暂无下载地址
+`Github`：https://github.com/dyboy2017/dyblog ，欢迎star，关注最新版本
+
+`DYBLOG V1.0.zip`：https://www.lanzous.com/i400ijg
+
+`官方下载地址(最新版)`：http://www.emlog.net/template/879
+
+插件合集下载地址：https://www.lanzous.com/b160930
 
 ***
 
@@ -51,9 +62,8 @@
 
 小东开发此款主题纯粹个人贡献，耗费不少的时间和精力，希望各位使用者更加专注于内容创作，迸发出更加优质的知识财富。
 
-本主题免费使用，如果您想要用作二次开发、商业用途，请注明原作者：DYBOY，超链接：https://blog.dyboy.cn ，否则将带来的法律责任自行承担
+本主题免费使用，如果您想要用作二次开发、商业用途，请注明原作者：`DYBOY`，超链接：https://blog.dyboy.cn ，否则将带来的法律责任自行承担
 
 如果您希望获得作者技术支持，不妨打赏支持一下小东
 
-
-![打赏支持](https://pay.top15.cn/static/images/dashang.png)
+![打赏支持](https://upload-images.jianshu.io/upload_images/6661013-29163606316247c2.png)

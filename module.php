@@ -3,6 +3,8 @@
  * 侧边栏组件、页面模块
  */
 if(!defined('EMLOG_ROOT')) {exit('error!');} 
+require_once View::getView('dy_config');
+$GLOBALS['web_config'] = $web_config;
 ?>
 <?php
 //widget：blogger
@@ -345,6 +347,7 @@ function neighbor_log($neighborLog){
 // 获取评论者等级
 function user_level($mail){
 	$db = Mysqlii::getInstance();
+  	global $web_config;
 	$result = $db->query("SELECT COUNT(*) as count FROM ".DB_PREFIX."comment WHERE mail='".$mail."'");
 	$count = mysqli_fetch_assoc($result)['count'];
 	$role = '';
