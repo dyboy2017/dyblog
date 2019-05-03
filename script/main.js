@@ -130,30 +130,31 @@ function closeMenu() {
 }
 
 //站长公告
+var timer;
 function admin_talk(){
 	let num=$(".ul1").find("li").length;
-    if (num>=1) {
-        setInterval(function(){ 
+	if(num > 0){
+	    timer = setInterval(function(){ 
 	        $('.ul1').animate({
 	            marginTop:"-26px"
 	        },500,function(){
 	            $(this).css({marginTop : "0"}).find("li:first").appendTo(this);
 	        });
 	    }, 3000);
-    }
+	}
+	
 }
 
 $(function(){
 	// 顶部空间
 	var headers = new Headroom(document.getElementById("header"),{tolerance:0,offset:70,classes:{initial: "animated",pinned:"slideDown",unpinned:"slideUp"}}); 
 	headers.init();
-	
 	// 代码格式化
 	if($('pre').length){ prettyPrint(); }
 	//到顶部
 	$("#scroll-to-top").click(function(){ $("html,body").animate({scrollTop:0}, 500); })
 	// 站长公告
-	admin_talk();
+	if(!timer){admin_talk()}
 	// 评论框文字提示
 	commentTool();
 	// 搜索
@@ -171,7 +172,6 @@ $(function(){
 	// 文章目录
 	if($('#article-menu').length>0){ $("#article-menu").autoMenu({levelOne:'h2',levelTwo:'h3'}); }
 	
-
 });
 
 
@@ -189,7 +189,7 @@ $(document).on('pjax:complete', function() {
 	if($('#article-menu').length){ $("#article-menu").autoMenu({levelOne:'h2',levelTwo:'h3'}); }
 	$('#post-content img').parent('a').attr('data-fancybox','gallery');
     $(".loading").css("display", "none");
-	// admin_talk();
+	if(!timer){admin_talk()}
     commentTool();
     searchTool();
 });
