@@ -4,6 +4,9 @@
  */
 if(!defined('EMLOG_ROOT')) {exit('error!');} 
 ?>
+
+</div> <!-- end #dyblog -->
+
 <div style="clear:both;"></div>
 
 <footer id="footer" class="footer"> 
@@ -25,8 +28,7 @@ if(!defined('EMLOG_ROOT')) {exit('error!');}
 	</div> 
 </footer>
 
-</div>
-<!-- end #dyblog -->
+
 
 <!-- 自动目录 -->
 
