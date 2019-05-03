@@ -43,9 +43,7 @@
 
 ### 0x05 下载地址
 
-`DYBLOG V1.0.zip`：https://www.lanzous.com/i400ijg
-
-`官方最新版本`：http://www.emlog.net/template/879
+抱歉暂无下载地址
 
 ***
 
