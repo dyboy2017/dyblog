@@ -33,7 +33,6 @@
 
 哔哩哔哩(可看1080P)：https://www.bilibili.com/video/av51221785/
 
-
 ***
 
 ### 0x04 更新进度
@@ -58,7 +57,26 @@
 
 ***
 
-### 0x06 注意事项
+### 0x06 参考来源
+
+> 非常感谢各位前辈、师傅的开源项目，才能让小东在最快的时间内，做出这款主题，对于本主题参考的来源表示由衷的感谢
+
+| 网站/项目 | 链接 |
+|:--:|:--:|
+| LiNPX | https://www.linpx.com |
+| 孟坤博客 | https://mkblog.cn/ |
+| 大前端 | http://www.daqianduan.com/ |
+| headroom.js | https://github.com/WickyNilliams/headroom.js |
+| fancybox3 | https://fancyapps.com/fancybox/3/ |
+| jquery | https://jquery.com/ |
+| pretiffy | http://code.google.com/p/google-code-prettify/ |
+| ... | 还有很多，就不一一列举了，致敬各位大佬 |
+
+本主题免费发布，仅供学习、非商业用途
+
+***
+
+### 0x07 注意事项
 
 小东开发此款主题纯粹个人贡献，耗费不少的时间和精力，希望各位使用者更加专注于内容创作，迸发出更加优质的知识财富。
 
