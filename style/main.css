@@ -40,7 +40,7 @@ ol li ol:first-of-type,ol li ul:first-of-type,ol li>:first-child,ul li ol:first-
 li{word-wrap:break-word}
 li p{margin:0}
 ol ol,ol ul,ul ol,ul ul{margin-bottom:0}
-pre{position:relative;margin:20px 0}
+pre{position:relative;margin:20px 0;font-size: 13px;}
 code{font-family:Menlo,Bitstream Vera Sans Mono,DejaVu Sans Mono,Monaco,Consolas,monospace;font-size:13px;margin:0 3px;padding:2px 6px;border-radius:3px;color:#c7254e;background-color:#f9f2f4}
 pre code{font-size:13px;display:block;overflow:auto;padding:1.3em;border:0}
 blockquote{padding:0 10px 0 20px;border-left:4px solid #ddd}
@@ -308,7 +308,7 @@ textarea{border-radius:5px;padding:5px 5px;border:1px solid #e5e9ef;background-c
 input:not([type~="checkbox"]):not([type~="radio"]),textarea,button,.btn{-webkit-transition:.2s;-moz-transition:.2s;-ms-transition:.2s;-o-transition:.2s;transition:.2s;font-size:1em;border-radius:3px;-webkit-appearance:none}
 .level{margin-left:6px;font-size:12px;color:#fff!important;background-color:#666;padding:0 4px;border-radius:2px;font-size:12px;cursor:pointer;-webkit-transition:.3s;-moz-transition:.3s;-o-transition:.3s;-ms-transition:.3s;line-height:150%;display:inline-block;vertical-align:middle;font-style:italic}
 .level:hover{filter:alpha(opacity=50);-moz-opacity:.5;-khtml-opacity:.5;opacity:.5;}
-.level-1{background-color::#348be8}
+.level-1{background-color:#348be8}
 .level-2{background-color:#32cd32}
 .level-3{background-color:#836fff}
 .level-4{background-color:#ff7f00}
