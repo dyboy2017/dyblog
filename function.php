@@ -266,17 +266,12 @@ function blog_tool_ishome(){
 
 //page-tags：搜索页面输出热门标签
 function page_tags(){
-    global $CACHE;
+	global $CACHE;
     $tag_cache = $CACHE->readCache('tags');
-    $count = 0;
-    $hot_num = 5;       // 可修改，定义变量
-    foreach ($tag_cache as $value){
-        if($value['usenum'] < $hot_num) {continue;}
-        echo '<a href="'.Url::tag($value['tagurl']).'" target="_blank" class="bg-white"><i class="fa fa-tags"></i> '.$value['tagname'].'('.$value['usenum'].')</a>';
-        $count += 1;
-        if($count == 30){
-            break;
-        }
+	$tagslength = count($tag_cache);
+	$tags = array_rand($tag_cache, min(30, $tagslength));
+    foreach ($tags as $value){
+        echo '<a href="'.Url::tag($tag_cache[$value]['tagurl']).'" target="_blank" class="bg-white"><i class="fa fa-tags"></i> '.$tag_cache[$value]['tagname'].'('.$tag_cache[$value]['usenum'].')</a>';
     }
 }
 
