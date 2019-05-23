@@ -48,6 +48,8 @@ if(!defined('EMLOG_ROOT')) {exit('error!');}
 <script src="//cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 <script src="//api.top15.cn/static/script/jquery.prettify.js"></script>
 <script src="<?php echo TEMPLATE_URL?>script/main.js?v1.0.3"></script>
+<script src="<?php echo TEMPLATE_URL?>script/body.js"></script>
+<canvas id="c_n1"></canvas>
 </body>
 </html>
 <?php $html=ob_get_contents();ob_get_clean();echo em_compress_html_main($html); ?>

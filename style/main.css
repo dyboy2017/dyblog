@@ -346,8 +346,8 @@ input:not([type~="checkbox"]):not([type~="radio"]),textarea,button,.btn{-webkit-
 .friends{ box-shadow: 0 2px 12px 0 rgba(0,0,0,0.2); border: 1px solid #e6ebf5; color: gray; width: 97%; margin: 0 auto; border-radius: 4px; margin-bottom: 10px;}
 .friend_h4{margin: 5px;padding-bottom:4px;border-bottom:1px solid #ccc;}
 .friend_sub{float:right;font-size:14px;}
-.friend_links{display: flex;}
-.friend_links li{line-height: 30px; float: left; margin-right: 15px;list-style-type: none;}
+/*.friend_links{display: flex;}*/
+.friend_links li{line-height: 30px; display:inline-block; margin-right: 15px;}
 .twiter .comment .text:before,.twiter .comment:before,.twiter .comments:before{content:"";position:absolute;top:0;left:65px}
 .twiter .comments:before{width:2px;top:-20px;bottom:-20px;background:rgba(0,0,0,.1)}
 .twiter .comment:before{width:14px;height:14px;border:3px solid #fff;border-radius:100px;margin:16px 0 0 -6px;box-shadow:0 1px 1px rgba(0,0,0,.2),inset 0 1px 1px rgba(0,0,0,.1);background:#ccc}
@@ -397,7 +397,7 @@ input:not([type~="checkbox"]):not([type~="radio"]),textarea,button,.btn{-webkit-
 .card_box{width:100%}
 .card_img{height:230px}
 .sort_tag{top:-210px}
-.friend_links{width:96%}
+.friend_links{width:96%;overflow:hidden;}
 }
 @media(max-width:725px){.blog_title{margin-top:2vh}
 .m_blog_title{display:block;color:#fff;position:fixed;z-index:9999;top:8px;font-size:24px;left:8px}
