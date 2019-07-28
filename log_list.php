@@ -78,7 +78,7 @@ if(!defined('EMLOG_ROOT')) {exit('error!');}
             					<div class="item-meta">
             						<i class="fa fa-calendar"></i> <?php echo gmdate('Y-n-j', $value['date']); ?>
             						<i class="fa fa-eye"></i> <?php echo $value['views']; ?>
-            						<i class="fa fa-comments"></i> <a href="https://mkblog.cn/1836/#comments"><?php echo $value['comnum']; ?></a>
+            						<i class="fa fa-comments"></i> <?php echo $value['comnum']; ?>
             					</div>
             				</div>
             			</div>
